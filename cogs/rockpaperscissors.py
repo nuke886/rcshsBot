@@ -9,7 +9,7 @@ class rps(commands.Cog):
 		usage=".rps <option (r, p, s)>",
 		aliases=['rockpaperscissors']
 	)
-	async def rps_command(self, ctx, *, option):
+	async def rps_command(self, ctx, *, message):
 		"""Play Rock Paper Scissors"""
 		if message == "s":
 			options = ['I Chose Rock! You Lose!', 'I Chose Scissors. We Tied.', 'I Chose Paper... I Lost...']
